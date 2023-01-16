@@ -1,10 +1,11 @@
-Olá!
-Nessa aplicação irei desenvolver uma página pessoal com a maior responsividade possível
-O motivo dessa criação é desenvolver em HTML/CSS puro, em inicio, e após o desenvolvimento, passar para React.
+Olá Bem Vindo!
 
-Aproveitarei e atualizarei diáriamente com as alterações;
+Primeiramente, é um imenso prazer ter sua companhia. Desde imaginei a possibilidade de programar me alegrou a possibilidade da usabilidade de desenvolvimentos meus. 
 
-10/07/2022 - Domingo
-Criação do diretório
-Alocação de imagens a serem utilizadas
-Processo de desenvolver a criatividade.
+Nessa aplicação irei desenvolver uma página pessoal, com intuito de que seja um similar ao meu CV, com a maior responsividade possível.
+
+Este site será totalmente programado em HTML, CSS e Javascript. Futuramente terá sua versão em ReactJS.
+
+Sem mais,
+
+Obrigado!
