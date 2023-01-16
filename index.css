@@ -7,18 +7,19 @@ header {
     max-width: 100%;
     color: white;
     text-align: center;
-    border: 1px;
-    border-color: red;
+    border: 1px solid red;
 }   
 
 #eu {
     display: inline-block;
     border-radius: 50%;
     width: 20%;
+    border: 1px solid red;
 }
 
 footer {
     text-align: center;
     size: 11px;
     color: white;
+    border: 1px solid red;
 }
