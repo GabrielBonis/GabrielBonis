@@ -1,31 +1,17 @@
-html {
+body {
     display: inline-block;
-    position: fixed;
+  position: relative;
+   
+}
+
+header {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid red;
 }
 
 #cabeca {
-    position: relative;
-    background-color: gray;
-    border-radius: 5px;
-    width: 100%;
-    opacity: 20%;
-    text-align: center;
-    padding: 200px 200px;
-    margin: 50px 50px;
-}
-
-#introducao {
-    color: black;
-}
-
-#a123 {
-    position: relative;
-    background-color: gray;
-    border-radius: 5px;
-    width: 100%;
-    text-align: center;
-    padding: 200px 200px;
-    margin: 50px 50px;
+  border: 1px solid red;
 }
 
 .corpo {
@@ -34,10 +20,12 @@ html {
 
 #mypic {
     width: 20%;
+  border: 1px solid red;
 
 }
 
 #mypic1 {
     width: 20%;
-    opacity: 100%;
+    opacity: 100%;]
+  border: 1px solid red;
 }
