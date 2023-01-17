@@ -1,29 +1,43 @@
-html{
-    background-color: black;
-}
-header {
-
-    display: flex;
-    max-width: 100%;
-    color: white;
-    text-align: center;
-    border: 1px solid red;
-}   
-
-#eu {
+html {
     display: inline-block;
-    border-radius: 50%;
-    width: 20%;
-    border: 1px solid red;
+    position: fixed;
 }
 
-footer {
+#cabeca {
+    position: relative;
+    background-color: gray;
+    border-radius: 5px;
+    width: 100%;
+    opacity: 20%;
     text-align: center;
-    size: 11px;
-    color: white;
-    border: 1px solid red;
+    padding: 200px 200px;
+    margin: 50px 50px;
+}
+
+#introducao {
+    color: black;
+}
+
+#a123 {
+    position: relative;
+    background-color: gray;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 200px 200px;
+    margin: 50px 50px;
 }
 
 .corpo {
+    border: 1px red;
+}
 
+#mypic {
+    width: 20%;
+
+}
+
+#mypic1 {
+    width: 20%;
+    opacity: 100%;
 }
