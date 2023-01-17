@@ -1,31 +1,44 @@
 body {
-    display: inline-block;
-  position: relative;
-   
+    display: inline;
+    background-color: gray;
+    background-position: 20%; 
 }
 
 header {
-  display: inline-block;
+  display:flow-root;
   text-align: center;
   border: 1px solid red;
+  background-color: gray;
+  padding: 2px 2px;
+  margin: 2px 2px;
 }
 
-#cabeca {
-  border: 1px solid red;
+#intro {
+    display: block;
+    text-align: center;
+    font-size: 250%;
+    margin: 2px 2px;
+    border: 1px solid red;
+    padding: 50px 5px 5px;
 }
 
-.corpo {
-    border: 1px red;
+#resumo {
+    display: inline-flex;
+    text-align: center;
+    border: 2px solid red;
+    
+}
+
+#aa {
+    display: inline-flex;
+    text-align: center;
+    border: 1px solid red;
 }
 
 #mypic {
-    width: 20%;
+    width: 15%;
   border: 1px solid red;
+  border-radius: 80px;
 
 }
 
-#mypic1 {
-    width: 20%;
-    opacity: 100%;]
-  border: 1px solid red;
-}
