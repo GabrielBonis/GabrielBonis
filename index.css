@@ -2,15 +2,15 @@ body {
     display: inline;
     background-color: gray;
     background-position: 20%; 
+    color: white;
 }
 
 header {
-  display:flow-root;
-  text-align: center;
-  border: 1px solid red;
-  background-color: gray;
-  padding: 2px 2px;
-  margin: 2px 2px;
+    display:flow-root;
+    text-align: center;
+    background-color: rgb(71, 70, 70);
+    padding: 2px 2px;
+    margin: 2px 2px;
 }
 
 #intro {
@@ -18,34 +18,47 @@ header {
     text-align: center;
     font-size: 250%;
     margin: 2px 2px;
-    border: 1px solid red;
     padding: 50px 5px 5px;
+}
+
+#padd {
+    padding: 5px;
+    font-size: 250%;
+    margin: 2px 2px;
 }
 
 #resumo {
     display: inline-flex;
     text-align: center;
-    border: 2px solid red;
+    
     
 }
 
 #aa {
-    display: inline-flex;
+    display: flex;
     text-align: center;
-    border: 1px solid red;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: auto;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 25px 205px 50px 10px;
 }
 
 #mypic {
+    position: relative;
     width: 15%;
-  border: 1px solid red;
-  border-radius: 80px;
+    border-radius: 90px;
+    height: auto;
+    padding: 50px;
 
 }
 
 #mypic1 {
     width: 20%;
     opacity: 100%;]
-  border: 1px solid red;
+    border: 1px solid red;
 }
 
 
