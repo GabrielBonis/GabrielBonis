@@ -36,7 +36,8 @@ position: relative;
 }
 
 .inicio {
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
   justify-content:space-between;
   align-items: center;
   border-bottom: 1px solid white;
@@ -57,9 +58,9 @@ margin-bottom: 20%;
 
 #imgeu {
   margin-right: 15%;
-  max-width: 15%;
-  border-radius: 50%;
-  height: auto;
+  min-width: 200px;
+  max-width: 30%;
+  border-radius: 10%;
   margin-inline: auto;
 }
 
@@ -69,6 +70,6 @@ footer {
 }
 
 h1{
-  font-size: 300%;
+  font-size: 30px;
   margin: 0%;
 }
