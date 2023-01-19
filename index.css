@@ -15,11 +15,11 @@ html {
 }
 
 #bot {
-  margin: auto;
+  margin: 0px auto;
   background-color: black;
   color: white;
   box-sizing: border-box;
-  width: 30px;
+  width: 125%;
   padding: 10px 5px 10px 5px;
   border: 1px solid red;
   border-radius: 15px
@@ -44,4 +44,10 @@ html {
 
 .direita{
   display: inline;
+}
+
+
+footer {
+  text-align: center;
+  margin-bottom: 2px;
 }
