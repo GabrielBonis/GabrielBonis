@@ -1,53 +1,72 @@
 html {
-  background-color: black;
+  background-color: #171923;
   color: white;
+  border-width: 0px;
 }
 #header {
+  margin-left: 60px;
+  margin-right: 60px;
   position: sticky;
   TOP: 0;
   display: flex;
-  background-color: black;
   color: white;
-  
   justify-content: center;
   align-items: center;
+  background-color: #171923;
   
 }
 
 #bot {
   margin: 0px auto;
-  background-color: black;
+  background-color: #171923;
   color: white;
   box-sizing: border-box;
-  width: 125%;
+  width: 140px;
   padding: 10px 5px 10px 5px;
-  border: 1px solid red;
-  border-radius: 15px
+  border: 1px solid white;
+  border-radius: 15px;
+  
 
   }
 
 .home {
-  border: 1px solid red;
-  padding: 2px;
-  margin: 200px;
+margin: 2%;
 }
 
-#inicio {
-  display: inline;
-  flex-direction: column;
-  box-sizing: border-box;
+.inicio {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  }
+
+#BreveResumo {
+hyphens: auto;
+display: block;
+block-size: 10%;
+padding-left: 10%;
+max-height: fit-content;
+text-align: start;
+max-width: 40%;
+margin-top: 20%;
+margin-bottom: 20%;
+
 }
 
-.esquerdo {
-  column-width: 50px;
+#imgeu {
+  margin-right: 15%;
+  max-width: 15%;
+  border-radius: 50%;
+  height: auto;
+  margin-inline: auto;
 }
-
-.direita{
-  display: inline;
-}
-
 
 footer {
   text-align: center;
   margin-bottom: 2px;
+}
+
+h1{
+  font-size: 300%;
+  margin: 0%;
 }
