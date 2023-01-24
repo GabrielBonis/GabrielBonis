@@ -17,6 +17,10 @@ html {
   float: right;
 }
 
+#header-img{
+  margin-left: 50px;
+}
+
 #header-content {
   display: flex;
   align-items: center;
@@ -66,14 +70,19 @@ html {
   display:flex;
   width: 400px;
   margin: auto;
-  min-width: 50%
+  min-width: 50%;
+  text-align:start;
 
 }
 
 li {
   list-style-type: none;
   margin: 0px;
-  font-size: 35px;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 #body-img {
