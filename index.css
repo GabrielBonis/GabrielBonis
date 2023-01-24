@@ -3,73 +3,89 @@ html {
   color: white;
   border-width: 0px;
 }
+
 #header {
-  margin-left: 60px;
-  margin-right: 60px;
-  position: sticky;
-  TOP: 0;
+  width: 100%;
+  text-align: center;
+  
+}
+  
+#header-title {
+  display: contents;
+  min-height: 20%;
+  min-width: 40% ;
+  float: right;
+}
+
+#header-content {
   display: flex;
-  color: white;
-  justify-content: center;
   align-items: center;
-  background-color: #171923;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#header-nav {
+  margin-right: 30px;
+}
+
+#header-nav ul {
+  list-style-type: none;
+  padding: 0 15px;
+}
+
+#header-nav li {
+  float: left;
+  min-width: 50px;
+}
+
+#header-nav a {
+  margin: 25px;
+  max-height: 150px;
+  max-width: 150px ;
+  font-size: 18px;
+  color:white;
   
 }
 
-#bot {
-  margin: 0px auto;
-  background-color: #171923;
-  color: white;
-  box-sizing: border-box;
-  width: 140px;
-  padding: 10px 5px 10px 5px;
-  border: 1px solid white;
-  border-radius: 15px;
-  
+#body {
+  min-height: 550px;
+  display: flex;
+  align-items: center;
 
-  }
-
-.home {
-margin: 2%;
-inset-block: auto;
-position: relative;
 }
 
-.inicio {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content:space-between;
-  align-items: center;
-  border-bottom: 1px solid white;
-  }
+#body-content {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ 
+}
 
-#BreveResumo {
-hyphens: auto;
-display: block;
-block-size: 10%;
-padding-left: 10%;
-max-height: fit-content;
-text-align: start;
-max-width: 40%;
-margin-top: 20%;
-margin-bottom: 20%;
+#body-text {
+  display:flex;
+  width: 400px;
+  margin: auto;
+  min-width: 50%
 
+}
+
+li {
+  list-style-type: none;
+  margin: 0px;
+  font-size: 35px;
+}
+
+#body-img {
+display:inline-flex;
+margin: auto;
+justify-content: space-around;
 }
 
 #imgeu {
-  margin-right: 15%;
-  min-width: 200px;
-  max-width: 30%;
-  border-radius: 10%;
-  margin-inline: auto;
-}
-
-footer {
-  text-align: center;
-  margin-bottom: 2px;
-}
-
-h1{
-  font-size: 30px;
-  margin: 0%;
+  justify-content: space-between;
+  float: right;
+  max-width:150px;
+    max-height:150px;
+    margin: auto;
 }
