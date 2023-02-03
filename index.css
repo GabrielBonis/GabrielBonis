@@ -7,7 +7,7 @@ html {
 #header {
   width: 100%;
   text-align: center;
-  
+  margin-top: 25px;
 }
 
 #header-content {
@@ -38,9 +38,8 @@ button a {
 }
 
 #body {
-  height: 750px;
-  display: flex;
-  align-items: center;
+  
+  margin: 30px
 }
 
 #body-content {
@@ -48,7 +47,8 @@ button a {
  display: flex;
  align-items: center;
  flex-wrap: wrap;
- 
+ border: 0.1px solid white;
+ border-radius: 25px;
 }
 
 #body-text {
@@ -72,8 +72,9 @@ ul p {
   margin: 35px 0px;
   font-size: 20px;
 }
-#social {
-
+#sociais {
+  list-style: none;
+  margin-top: 5px;
 }
 
 #body-img {
@@ -90,7 +91,7 @@ width:150px;
 #logos {
   margin-top: 0px;
   width: 25px;
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
 footer {
