@@ -1,11 +1,8 @@
 Olá Bem Vindo!
 
-Primeiramente, é um imenso prazer ter sua companhia. Desde imaginei a possibilidade de programar me alegrou a possibilidade da usabilidade de desenvolvimentos meus. 
+Meu nome é Gabriel Bonis e eu sou Engenheiro Mecânico apaixonado por tecnologia e desenvolvimento.
+Desde que entrei na faculdade sempre imaginei a possibilidade mudar vidas com minhas ideias, mas, depois de aprender a programar pude ter a alegria de poder melhorar o mundo com a possibilidade da usabilidade de desenvolvimentos meus. 
 
-Nessa aplicação irei desenvolver uma página pessoal, com intuito de que seja um similar ao meu CV, com a maior responsividade possível.
+Como bom engenheiro que sou, os dados são uma paixão que sempre tive quando criança e pude desenvolver mais durante a faculdade, por isso, como stack eu escolhi o Back-End, voltado para as linguagens Python, VBA e R.
 
-Este site será totalmente programado em HTML, CSS e Javascript. Futuramente terá sua versão em ReactJS.
-
-Sem mais,
-
-Obrigado!
+Obrigado pela companhia e até breve!
